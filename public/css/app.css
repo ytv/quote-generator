@@ -1,0 +1,36 @@
+*{
+  font: 18px/24px Arial, Sans-Serif;
+  color: #000;
+}
+html, .row {
+  background: #d9eeed;
+}
+.header {
+  margin: 8% auto 0 auto;
+}
+#quoteBox {
+  margin: 20% auto 5% auto;
+  border: 2px solid #bbb;
+  padding: 2%;
+  border-radius: 25px;
+  background: #fff;
+}
+#author {
+  font-weight: bold;
+}
+#getQuoteBtn, #tweetBtn {
+  font-size: 70%;
+  margin: 2% 2%;
+}
+.btn-twitter {
+  background: #55ACEE;
+  border: #000;
+  color: #fff;
+}
+.btn-twitter:hover{
+  background: #4489be;
+  color: #fff;
+}
+.fa-twitter {
+  color: #fff;
+}
