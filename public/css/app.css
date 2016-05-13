@@ -8,19 +8,18 @@ html, .row {
 .header {
   margin: 8% auto 0 auto;
 }
-#quoteBox {
-  margin: 20% auto 5% auto;
+.quote {
+  margin: 5% auto;
   border: 2px solid #bbb;
   padding: 2%;
   border-radius: 25px;
   background: #fff;
 }
-#author {
+.quote-author {
   font-weight: bold;
 }
-#getQuoteBtn, #tweetBtn {
+#get-quote-btn, .tweet-btn {
   font-size: 70%;
-  margin: 2% 2%;
 }
 .btn-twitter {
   background: #55ACEE;
@@ -33,4 +32,15 @@ html, .row {
 }
 .fa-twitter {
   color: #fff;
+}
+.quote-change {
+  margin-right: 8px;
+}
+.quote-remove {
+  font-size: 19px;
+}
+.quote-change, .quote-remove {
+  cursor: pointer;
+  display: inline-block;
+  opacity: 0.6;
 }
